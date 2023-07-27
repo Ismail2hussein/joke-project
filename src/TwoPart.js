@@ -1,8 +1,8 @@
-function TwoPart() {
+function TwoPart(props) {
   return (
     <div className="content">
-      <h2 className="joke">the is just a text</h2>
-      <h2 className="punch-line">the is just a text</h2>
+      <h2 className="joke">{props.jokeQuiz}</h2>
+      <h2 className="punch-line">{props.jokeAns}</h2>
     </div>
   );
 }
